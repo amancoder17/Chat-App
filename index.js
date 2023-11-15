@@ -28,7 +28,7 @@ io.on('connection',(socket)=>{
 })
 
 app.use('/',express.static(path.join(__dirname,'public')));
-const PORT   =4444;
+const PORT   =process.env.PORT || 4444;
 server.listen(PORT,()=>{
     console.log('server is up at PORT',PORT);
 })

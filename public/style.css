@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+.chat-container{
+    border: 2px solid black;
+    width: 500px;
+    /* height: 500px; */
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+.chat{
+    height: 350px;
+}
+.send-btn{
+    margin-left: 20px;
+}
+.message{
+    margin: 5px 0;
+    padding: 5px;
+    
+    border-radius: 10px;
+}
+.sender-msg{
+    background-color: #d0f4de;
+}
+.rec-msg{
+    background-color: #a9def9;
+}
+.input-container{
+    margin: 10px;
+}
+
+
+::-webkit-scrollbar{
+    width:5px;
+   
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#aecbee,#94e9bc);
+    border-radius: 10px;
+}
